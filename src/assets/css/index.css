@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo-container {
+  max-width: 150px;
+  height: auto;
+}
+body {
+  overflow-x: hidden;
+}
+img {
+  object-fit: cover;
+  object-position: center;
+  max-width: 100%;
+  height: auto;
+}
+.w-70 {
+  width: 70%;
+}
+.w-30 {
+  width: 30%;
+}
+.ml20 {
+  margin-left: 10%;
+}
+.videoTag {
+  max-width: 100%;
+}
+.content-wrapper {
+  height: 400px;
+}
+.bannerWrapper {
+  position: relative;
+}
+.banner-container {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  padding: 40px 0;
+}
+.writing-content {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+}
+img.bannerLogo {
+  width: 350px;
+}
+
+img.playStore {
+  width: 250px;
+}
+.bageWrapper {
+  background-color: #b7b2b2;
+  padding: 10px 30px 10px 10px;
+  border-radius: 33px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.bageContainer {
+  margin: 15px 0;
+  /* width: 90%; */
+  padding: 15px;
+  background-color: #e0e0e0;
+  border-radius: 20px;
+  display: none;
+}
+.active.bageContainer {
+  display: block;
+}
+.bageContainer img {
+  margin-right: 7px;
+}
+.headlight {
+  max-width: 450px;
+}
