@@ -1,0 +1,83 @@
+.titleImage {
+  width: 370px;
+}
+.titleClass {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+}
+.WhyTitle {
+  margin: 30px;
+}
+.whyBody {
+  display: flex;
+  height: 490px;
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.715) 0%,
+      rgba(0, 0, 0, 0.818) 51%
+    ),
+    url("./bus-di-hybride-arriva-van-hool-leida-paesi-bassi-effettua-i-servizi-del-della-vettura-treno-tram-e-waterbus-attraverso-europa-154281923.png")
+      center center no-repeat;
+  background-size: "cover";
+  height: 500px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* inner Component */
+.InnerComContainer {
+  width: 250px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.InnerComContainerIcon {
+  background-color: #fff;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.customInnerIcon {
+  font-size: 54px;
+}
+.InnerComContainerText {
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 22px;
+}
+.InnerComContainerOnHover {
+  width: 250px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f3f3f3;
+  padding: 20px;
+}
+.InnerComContainerIconHover {
+  background-color: #000;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.InnerComContainerTextOnHover {
+  color: #000;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 22px;
+}
+.custominnericonhover {
+  font-size: 54px;
+  color: #fff;
+}

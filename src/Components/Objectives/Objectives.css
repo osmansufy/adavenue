@@ -1,0 +1,115 @@
+.containerObjective {
+  width: 100%;
+  height: 700px;
+  background-color: #f3f3f3;
+}
+
+.innercontainerObjective {
+  display: flex;
+}
+.sectionOLeft {
+  flex: 1 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.sectionOImage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.sectionORight {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  background-color: #f3f3f3;
+  flex-direction: column;
+}
+.objectiveTitle {
+  text-align: center;
+  padding: 20px;
+}
+.mobileImage {
+  height: 500px;
+}
+
+/* expandSection */
+.titleSectionExpand {
+  display: flex;
+  height: 60px;
+}
+.iconSectionExpand {
+  background-color: #2d2d2d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+}
+.iconSectionTitleP {
+  margin: 0px;
+}
+.iconSectionTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  background-color: #e0e0e0;
+  width: 190px;
+}
+.ExpandDescription {
+  background-color: #2d2d2d;
+  padding: 8px;
+  max-width: 290px;
+}
+.ExpandDescriptionNone {
+  background-color: #2d2d2d;
+  padding: 8px;
+  max-width: 290px;
+  display: none;
+}
+.ExpandDescriptionP {
+  color: #fff;
+  font-size: 13px;
+}
+
+.fa-tv {
+  color: #fff;
+}
+.customExpandIcon {
+  font-size: 22px;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .innercontainerObjective {
+    display: flex;
+    flex-direction: column;
+  }
+  .sectionORight {
+    display: flex;
+    flex: 1 1;
+    justify-content: space-between;
+    background-color: #f3f3f3;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 30px; */
+  }
+  .mobileImage {
+    height: 400px;
+  }
+  .sectionOLeft {
+    flex: 1 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .containerObjective {
+    width: 100%;
+    height: 869px;
+    background-color: #f3f3f3;
+  }
+}
